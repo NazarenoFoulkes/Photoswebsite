@@ -28,7 +28,7 @@ body
   }
   
   .logo span{
-    color: palevioletred;
+    color: rgb(151, 99, 178);
   }
   
   .contact-wrapper {
@@ -65,11 +65,11 @@ body
   padding: .7em; border: none;
   background: none;
   color: #fff;
-  border-bottom: 1px solid palevioletred;   
+  border-bottom: 1px solid rgb(86, 83, 84);   
   }
   
   .contact-formbutton {
-    background:palevioletred;
+    background:rgb(85, 84, 84);
     border: 0;
     text-transform: uppercase;
     padding: 1em;
@@ -78,7 +78,7 @@ body
   
   .contact-form form button:hover,
   .contact-form form button:focus {
-    background: palevioletred;
+    background: rgb(87, 86, 87);
     color: #fff;
     transition: background-color 1s ease-in-out;
   outline: 0;
