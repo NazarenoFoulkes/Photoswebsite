@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Photowebsite</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       
+        <link href="main.css" rel="stylesheet" type="text/css"/>
+        
+        <script src="jquery-3.2.1.min.js" type="text/javascript"></script>
+       
+        <link href="jquery.fancybox.min.css" rel="stylesheet" type="text/css"/>
+        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    
+    <body>
+        
+        
+        <nav>    
+            <!--Side navigation button (only enabled in mobile or tablet mode)-->
+            <a href="#" class="nav-toggle-btn"></a>
+            <!--Side navigation Menu-->
+            <h1><a href="index.html">xxxxx</a></h1>
+                <ul>
+                    <li><a href="People.html"> People </a></li>
+                    <li><a href="Black.html"> Black </a></li>
+                    <li><a href="Sky.html"> Sky </a></li>
+                    <li><a href="Museums.html"> Museums </a></li>
+                    <li><a href="Nature.html"> Nature </a></li>
+                    <li><a href="Urban.html"> Urban </a></li>
+                </ul>
+            <!--Side navigation menu (about and contact)-->
+            <div class="info">
+                <h5><a href="About.html">Contact</a></h5>
+            </div>
+            <!--Side navigation menu (social media buttons) -->
+            <div class="socialbtn">
+                <ul>
+                    <li><a href=""><i class="fa fa-facebook-official" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com//" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                 
+                </ul>
+            </div>
+            
+        </nav>
+        
+         <!--photography pictures-->
+        
+       <div id="main" class="content">
+            <a href="Home_1.jpg" data-caption="" data-fancybox="image"><img src="Home_1.jpg" alt=""/></a>
+            <a href="Home_2.jpg" data-caption="" data-fancybox="image"><img src="Home_2.jpg" alt=""/></a>
+            <a href="Home_3.jpg" data-caption="" data-fancybox="image"><img src="Home_3.jpg" alt=""/></a>
+            <a href="Home_4.jpg" data-caption="" data-fancybox="image"><img src="Home_4.jpg" alt=""/></a>
+            <a href="Home_5.jpg" data-caption="" data-fancybox="image"><img src="Home_5.jpg" alt=""/></a>
+            <a href="Home_6.jpg" data-caption="" data-fancybox="image"><img src="Home_6.jpg" alt=""/></a>
+            <a href="Home_7.jpg" data-caption="" data-fancybox="image"><img src="Home_7.jpg" alt=""/></a>
+            <a href="Home_8.jpg" data-caption="" data-fancybox="image"><img src="Home_8.jpg" alt=""/></a>
+            <a href="Home_9.jpg" data-caption="" data-fancybox="image"><img src="Home_9.jpg" alt=""/></a>
+            <a href="HHome_10.jpg" data-caption="" data-fancybox="image"><img src="Home_10.jpg" alt=""/></a>
+            <a href="Home_11.jpg" data-caption="" data-fancybox="image"><img src="Home_11.jpg" alt=""/></a>
+            <a href="Home_12.jpg" data-caption="" data-fancybox="image"><img src="Home_12.jpg" alt=""/></a>
+            <a href="Home_13.jpg" data-caption="" data-fancybox="image"><img src="Home_13.jpg" alt=""/></a>
+            <a href="Home_14.jpg" data-caption="" data-fancybox="image"><img src="Home_14.jpg" alt=""/></a>
+            <a href="Home_15.jpg" data-caption="" data-fancybox="image"><img src="Home_15.jpg" alt=""/></a>
+            <a href="Home_16.jpg" data-caption="" data-fancybox="image"><img src="Home_16.jpg" alt=""/></a>
+        </div>
+        
+        
+        <script src="jquery-3.2.1.min.js" type="text/javascript"></script>        
+        <script src="jquery.fancybox.min.js" type="text/javascript"></script>
+        <!--Google analytics integration-->
+        <script src="GoogleAnalytics.js" type="text/javascript"></script>
+       
+       
+        
+        
+        <script type="text/javascript">
+              
+        (function() {
+            
+            var bodyEl = $('body'),
+                navToggleBtn = bodyEl.find('.nav-toggle-btn');
+            
+            navToggleBtn.on('click', function(e) {
+                bodyEl.toggleClass('active-nav');
+                e.preventDefault();
+            });
+            
+        })();
+        
+            $(document).ready(function ()
+            {
+            });
+        
+    </script>
+   
+    </body>
+</html>
